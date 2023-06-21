@@ -1,0 +1,9 @@
+
+.footer__lista {
+    list-style: none;
+    text-decoration: none;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

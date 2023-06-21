@@ -1,0 +1,14 @@
+.salsa__boton {
+    color: #ffffff;
+    border-style: none;
+    background: #e73938;
+    border-radius: 5px;
+    padding: .7rem;
+    margin: .8rem;
+}
+
+.salsa__boton:hover {
+    background: #bb0606;
+    cursor: pointer;
+    transition: .2s;
+}

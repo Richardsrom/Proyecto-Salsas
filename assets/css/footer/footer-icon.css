@@ -1,0 +1,10 @@
+
+.footer__icon {
+    height: 1.2rem;
+    color: #f11919;
+}
+
+.footer__icon:hover {
+    color: #9e0404;
+    transition: .3s;
+}

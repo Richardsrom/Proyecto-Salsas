@@ -1,0 +1,4 @@
+.acercaDe__valores {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,8 @@
+.mapa__titulo {
+    display: flex;
+    justify-content: center;
+    color: #f03434;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,7 @@
+.salsas {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background: #f1eccd;
+}

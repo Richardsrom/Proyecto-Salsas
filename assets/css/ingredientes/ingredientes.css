@@ -1,0 +1,12 @@
+
+.ingredientes {
+    opacity: 0;
+    display: none;
+    transition: opacity .3s ease-in-out;
+}
+
+.ingredientes.show {
+    display: block;
+    opacity: 1;
+
+}

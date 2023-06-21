@@ -1,0 +1,5 @@
+.acercaDe__valores-lista {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
