@@ -1,8 +1,10 @@
 
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 2rem 1rem 0;
+    padding: 2rem 1rem .7rem;
     flex-wrap: wrap;
+    height: 10rem;
+    background: #403c3c08;
 }

@@ -32,6 +32,10 @@
     <link rel="stylesheet" href="assets/css/acercaDe/acercaDe-valores.css">
     <link rel="stylesheet" href="assets/css/acercaDe/acercaDe-vision.css">
     <link rel="stylesheet" href="assets/css/acercaDe/acercaDe.css">
+    <link rel="stylesheet" href="assets/css/bolsaDeTrabajo/trabajo.css">
+    <link rel="stylesheet" href="assets/css/bolsaDeTrabajo/trabajo-titulo.css">
+    <link rel="stylesheet" href="assets/css/bolsaDeTrabajo/trabajo-info.css">
+    <link rel="stylesheet" href="assets/css/bolsaDeTrabajo/trabajo-puestos-descripcion.css">
     <link rel="stylesheet" href="assets/css/mapa/mapa-titulo.css">
     <link rel="stylesheet" href="assets/css/mapa/mapa-ubicacion.css">
     <link rel="stylesheet" href="assets/css/mapa/mapa.css">
@@ -54,7 +58,11 @@
     <link rel="stylesheet" href="assets/css/footer/footer-parrafo.css">
     <link rel="stylesheet" href="assets/css/footer/footer-titulo.css">
     <link rel="stylesheet" href="assets/css/footer/footer-icon.css">
-    <title>Rancherita Bravo</title>
+    <link rel="stylesheet" href="assets/css/footer/footer-contacto.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-lista-contacto.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-item-contacto.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-icon-contacto.css">
+    <title>Rancherita Bravo & Co.</title>
 </head>
 <body>
     <header>
@@ -71,6 +79,7 @@
                 <li><a href="index.html" class="active menu__link"><i class="fa-solid fa-house"></i> Inicio</a></li>
                 <li><a href="#salsasTipos" class="menu__link" ><i class="fa-solid fa-wine-bottle"></i> Salsas</a></li>
                 <li><a href="#quienesSomos" class="menu__link" ><i class="fa-solid fa-user"></i> Quienes Somos</a></li>
+                <li><a href="#bolsaDeTrabajo" class="menu__link" ><i class="fa-solid fa-briefcase"></i> Bolsa de Trabajo</a></li>
                 <li><a href="#ubicacion" class="menu__link" ><i class="fa-solid fa-location-pin"></i> Ubicación</a></li>
                 <li><a href="#contacto" class="menu__link" ><i class="fa-solid fa-comment"></i> Contacto</a></li>
             </ul>
@@ -143,32 +152,41 @@
                     <h4 class="acercaDe__titulo">Misión</h4>
                     <p class="acercaDe__descripcion">Nuestra misión es deleitar a los amantes de la buena comida al ofrecer salsas de alta calidad que realzan y complementan sus platos favoritos. Buscamos satisfacer los paladares más exigentes y convertir cada comida en una experiencia memorable.</p>
                 </div>
-            </div>
-            <div class="acercaDe__vision">
-                <h4 class="acercaDe__titulo">Visión</h4>
-                <p class="acercaDe__descripcion">Nos esforzamos por ser reconocidos como líderes en el mercado de las salsas, tanto a nivel nacional como internacional. Queremos ser la elección preferida de los aficionados a la gastronomía en busca de sabores auténticos y emocionantes.</p>
-            </div>
-            <div class="acercaDe__valores">
-                <h4 class="acercaDe__titulo">Valores</h4>
-                <ul class="acercaDe__valores-lista">
-                    <li class="acercaDe__valores-items">
-                        <strong>Calidad:</strong><p> Nos comprometemos a utilizar ingredientes frescos y seleccionados, manteniendo altos estándares de calidad en todas nuestras salsas.</p>
-                    </li>
-                    <li class="acercaDe__valores-items">
-                        <strong>Pasión:</strong><p>  Nos apasiona crear salsas deliciosas que inspiren momentos de alegría y satisfacción en cada bocado.</p>
-                    </li>
-                    <li class="acercaDe__valores-items">
-                        <strong>Innovación:</strong><p>  Nos esforzamos por desarrollar nuevas y emocionantes combinaciones de sabores, siempre en busca de nuevas formas de sorprender y cautivar a nuestros clientes.</p>
-                    </li>
-                    <li class="acercaDe__valores-items">
-                        <strong>Autenticidad:</strong><p>  Nos enorgullece preservar las recetas tradicionales y auténticas, transmitiendo el legado de la gastronomía en cada una de nuestras salsas.</p>
-                    </li>
-                    <li class="acercaDe__valores-items">
-                        <strong>Sostenibilidad:</strong><p>  Nos comprometemos a minimizar nuestro impacto en el medio ambiente, utilizando prácticas responsables en todas las etapas de producción y distribución.</p>
-                    </li>
-                </ul>
+                <div class="acercaDe__vision">
+                    <h4 class="acercaDe__titulo">Visión</h4>
+                    <p class="acercaDe__descripcion">Nos esforzamos por ser reconocidos como líderes en el mercado de las salsas, tanto a nivel nacional como internacional. Queremos ser la elección preferida de los aficionados a la gastronomía en busca de sabores auténticos y emocionantes.</p>
+                </div>
+                <div class="acercaDe__valores">
+                    <h4 class="acercaDe__titulo">Valores</h4>
+                    <ul class="acercaDe__valores-lista">
+                       <li class="acercaDe__valores-items">
+                            <strong>Calidad:</strong><p> Nos comprometemos a utilizar ingredientes frescos y seleccionados, manteniendo altos estándares de calidad en todas nuestras salsas.</p>
+                       </li>
+                       <li class="acercaDe__valores-items">
+                            <strong>Pasión:</strong><p>  Nos apasiona crear salsas deliciosas que inspiren momentos de alegría y satisfacción en cada bocado.</p>
+                       </li>
+                       <li class="acercaDe__valores-items">
+                            <strong>Innovación:</strong><p>  Nos esforzamos por desarrollar nuevas y emocionantes combinaciones de sabores, siempre en busca de nuevas formas de sorprender y cautivar a nuestros clientes.</p>
+                       </li>
+                       <li class="acercaDe__valores-items">
+                            <strong>Autenticidad:</strong><p>  Nos enorgullece preservar las recetas tradicionales y auténticas, transmitiendo el legado de la gastronomía en cada una de nuestras salsas.</p>
+                       </li>
+                       <li class="acercaDe__valores-items">
+                            <strong>Sostenibilidad:</strong><p>  Nos comprometemos a minimizar nuestro impacto en el medio ambiente, utilizando prácticas responsables en todas las etapas de producción y distribución.</p>
+                       </li>
+                    </ul>
+                </div>
             </div>
         </div>
+        </section>
+        <section class="trabajo" id="bolsaDeTrabajo">
+            <h3 class="trabajo__titulo">Bolsa De Trabajo</h3>
+            <div class="trabajo__informacion">
+                <p class="trabajo__puestos-descripcion"> <strong>Puesto:</strong> Vendedores</p>
+                <p class="trabajo__puestos-descripcion"><strong>Descripción:</strong> Vendedores de Campo por Cambaceo.</p>
+                <p class="trabajo__puestos-descripcion"><strong>Requisitos:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, Lorem ipsum dolor sit amet.</p>
+                <p class="trabajo__puestos-descripcion"><strong>Interesados:</strong> Mandar correo electronico <a href="mailto:rancheritabravo@gmail.com">click aqui</a></p>
+            </div>
         </section>
         <section class="mapa" id="ubicacion">
             <h5 class="mapa__titulo">Donde estamos</h5>
@@ -178,15 +196,18 @@
         </section>
     </main>
     <footer class="footer" id="contacto">
-        <h5 class="footer__titulo">Salsas 2023</h5>
-        <p class="footer__parrafo">Contacto</p>
+        <h5 class="footer__titulo">Rancherita Bravo & Co. 2023</h5>
+        <div class="footer__contacto">
+            <p class="footer__parrafo">Contacto</p>
+            <ul class="footer__lista-contacto">
+                <li class="footer__item-contacto"><a href="tel:+5558135822"><i class="fa-solid fa-phone footer__icon-contacto"></i></a></li>
+                <li class="footer__item-contacto"><a href="mailto:rancheritabravo@gmail.com"><i class="fa-solid fa-envelope footer__icon-contacto"></i></a></li>
+            </ul>
+        </div>
         <ul class="footer__lista">
             <li class="footer__item"><a href="#"><i class="fa-brands fa-instagram footer__icon"></i></a></li>
             <li class="footer__item"><a href="#"><i class="fa-brands fa-facebook footer__icon"></i></a></li>
-            <li class="footer__item"><a href="tel:+5558135822"><i class="fa-solid fa-phone footer__icon"></i></a></li>
-            <li class="footer__item"><a href="mailto:rancheritabravo@gmail.com"><i class="fa-solid fa-envelope footer__icon"></i></a></li>
         </ul>
-
     </footer>
     <script src="script.js"></script>
 </body>

@@ -8,7 +8,7 @@
     .menu__list {
         display: block;
         width: fit-content;
-        margin: 25px auto 0;
+        margin: 5px auto 0;
         text-align: center;
         transition: .5s;
         opacity: 0;

@@ -1,0 +1,10 @@
+
+.footer__icon-contacto {
+    height: 1.2rem;
+    color: #fa5101;
+}
+
+
+.footer__icon-contacto:hover {
+    color: #c54306;
+}
