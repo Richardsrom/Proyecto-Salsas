@@ -10,6 +10,7 @@
     font-size: 1rem;
     text-align: justify;
     margin: .5rem;
+    line-height: var(--separacion-texto);
 }
 
 .trabajo__puestos-descripcion a {

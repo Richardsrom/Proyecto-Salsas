@@ -53,12 +53,18 @@
     <link rel="stylesheet" href="assets/css/sobre/sobre-titulo.css">
     <link rel="stylesheet" href="assets/css/sobre/sobre.css">
     <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/footer/footer-item.css">
-    <link rel="stylesheet" href="assets/css/footer/footer-lista.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-item-redesSociales.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-lista-redesSociales.css">
     <link rel="stylesheet" href="assets/css/footer/footer-parrafo.css">
     <link rel="stylesheet" href="assets/css/footer/footer-titulo.css">
-    <link rel="stylesheet" href="assets/css/footer/footer-icon.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-icon-redesSociales.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-horario.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-horario-titulo.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-horario-tabla.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-horario-encabezado.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-horario-datos.css">
     <link rel="stylesheet" href="assets/css/footer/footer-contacto.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-redesSociales.css">
     <link rel="stylesheet" href="assets/css/footer/footer-lista-contacto.css">
     <link rel="stylesheet" href="assets/css/footer/footer-item-contacto.css">
     <link rel="stylesheet" href="assets/css/footer/footer-icon-contacto.css">
@@ -185,7 +191,7 @@
                 <p class="trabajo__puestos-descripcion"> <strong>Puesto:</strong> Vendedores</p>
                 <p class="trabajo__puestos-descripcion"><strong>Descripción:</strong> Vendedores de Campo por Cambaceo.</p>
                 <p class="trabajo__puestos-descripcion"><strong>Requisitos:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, Lorem ipsum dolor sit amet.</p>
-                <p class="trabajo__puestos-descripcion"><strong>Interesados:</strong> Mandar correo electronico <a href="mailto:rancheritabravo@gmail.com">click aqui</a></p>
+                <p class="trabajo__puestos-descripcion"><strong>Interesados:</strong> Mandar un correo electrónico <a href="mailto:rancheritabravo@gmail.com">click aqui</a></p>
             </div>
         </section>
         <section class="mapa" id="ubicacion">
@@ -196,7 +202,27 @@
         </section>
     </main>
     <footer class="footer" id="contacto">
-        <h5 class="footer__titulo">Rancherita Bravo & Co. 2023</h5>
+        <div class="footer__horario">
+            <table class="footer__horario-tabla">
+                <caption class="footer__horario-titulo">Horario</caption>
+                <thead class="footer__horario-encabezado">
+                    <tr>
+                        <th>Dia</th>
+                        <th>Hora</th>
+                    </tr>
+                </thead>
+                <tbody class="footer__horario-datos">
+                    <tr>
+                        <td>Lunes - Viernes</td>
+                        <td>8 - 18</td>
+                    </tr>
+                    <tr>
+                        <td>Sábados - Domingos</td>
+                        <td>8 - 15</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <div class="footer__contacto">
             <p class="footer__parrafo">Contacto</p>
             <ul class="footer__lista-contacto">
@@ -204,10 +230,16 @@
                 <li class="footer__item-contacto"><a href="mailto:rancheritabravo@gmail.com"><i class="fa-solid fa-envelope footer__icon-contacto"></i></a></li>
             </ul>
         </div>
-        <ul class="footer__lista">
-            <li class="footer__item"><a href="#"><i class="fa-brands fa-instagram footer__icon"></i></a></li>
-            <li class="footer__item"><a href="#"><i class="fa-brands fa-facebook footer__icon"></i></a></li>
-        </ul>
+        <div class="footer__redesSociales">
+            <p class="footer__parrafo">Redes Sociales</p>
+            <ul class="footer__lista-redesSociales">
+                <li class="footer__item-redesSociales"><a href="#"><i class="fa-brands fa-instagram footer__icon-redesSociales"></i></a></li>
+                <li class="footer__item-redesSociales"><a href="#"><i class="fa-brands fa-facebook footer__icon-redesSociales"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer__nombreEmpresa">
+            <h5 class="footer__titulo">Rancherita Bravo & Co. 2023</h5>
+        </div>
     </footer>
     <script src="script.js"></script>
 </body>

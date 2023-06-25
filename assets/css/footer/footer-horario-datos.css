@@ -1,0 +1,6 @@
+
+.footer__horario-datos td {
+    font-weight: 200;
+    color: var(--color-textos);
+    padding: .1rem .5rem .1rem 0;
+}

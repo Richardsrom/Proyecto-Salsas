@@ -1,0 +1,8 @@
+
+.footer__lista-redesSociales {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: .4rem;
+}

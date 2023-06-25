@@ -3,4 +3,5 @@
     font-weight: 500;
     color: #f03434;
     margin: 1rem 0;
+    line-height: var(--separacion-texto-titulo);
 }

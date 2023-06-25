@@ -2,5 +2,8 @@
 :root {
     --font:'Inter', sans-serif;
     --color-textos: #595959;
+    --separacion-texto-titulo: 1.6rem;
+    --separacion-texto: 1.3rem;
+    --color-titulo: #f03434;
 }
 

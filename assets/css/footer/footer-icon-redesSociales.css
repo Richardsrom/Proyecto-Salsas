@@ -1,0 +1,10 @@
+
+.footer__icon-redesSociales {
+    height: 1.3rem;
+    color: #f11919;
+}
+
+.footer__icon-redesSociales:hover {
+    color: #9e0404;
+    transition: .3s;
+}

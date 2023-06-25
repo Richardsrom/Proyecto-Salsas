@@ -1,8 +1,9 @@
 .nosotros__descripcion {
-    color: #595959;
+    color: var(--color-textos);
     font-size: 1rem;
     font-weight: 200;
     margin-bottom: 2.3rem;
     text-align: justify;
     padding: .3rem;
+    line-height: var(--separacion-texto);
 }

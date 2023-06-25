@@ -7,4 +7,5 @@
 
 .footer__icon-contacto:hover {
     color: #c54306;
+    transition: .3s;
 }

@@ -1,0 +1,6 @@
+
+.footer__horario-encabezado th {
+    color: var(--color-titulo);
+    font-weight: 500;
+    padding: .3rem 0;
+}
