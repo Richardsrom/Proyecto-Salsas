@@ -1,13 +1,27 @@
 .banner__titulo {
     color: #ffffff;
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -30%);
     font-weight: 700;
-    font-size: 18px; 
-    text-shadow: rgba(0, 0, 0, .75) 0 1px 3px;
+    font-size: 1.125rem; 
+    text-shadow: rgba(0, 0, 0, .75) 1px 2px 3px;
     padding: 1rem;
 }
 
+@media (min-width:768px) {
+
+    .banner__titulo {
+        font-size: 1.513rem;
+    }
+    
+}
+
+@media (min-width:1024px) {
+
+    .banner__titulo {
+        font-size: 1.987rem;
+    }
+}

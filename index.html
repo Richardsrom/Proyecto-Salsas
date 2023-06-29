@@ -18,7 +18,9 @@
     <link rel="stylesheet" href="assets/css/menu/logo.css">
     <link rel="stylesheet" href="assets/css/menu/menu.css">
     <link rel="stylesheet" href="assets/css/menu/menu-list.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-nombre.css">
     <link rel="stylesheet" href="assets/css/menu/menu-link.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-icons.css">
     <link rel="stylesheet" href="assets/css/banner/banner-imagen.css">
     <link rel="stylesheet" href="assets/css/banner/banner-titulo.css">
     <link rel="stylesheet" href="assets/css/banner/banner.css">
@@ -56,6 +58,7 @@
     <link rel="stylesheet" href="assets/css/footer/footer-item-redesSociales.css">
     <link rel="stylesheet" href="assets/css/footer/footer-lista-redesSociales.css">
     <link rel="stylesheet" href="assets/css/footer/footer-parrafo.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-nombreEmpresa.css">
     <link rel="stylesheet" href="assets/css/footer/footer-titulo.css">
     <link rel="stylesheet" href="assets/css/footer/footer-icon-redesSociales.css">
     <link rel="stylesheet" href="assets/css/footer/footer-horario.css">
@@ -82,12 +85,12 @@
 
         <nav class="menu">
             <ul class="menu__list">
-                <li><a href="index.html" class="active menu__link"><i class="fa-solid fa-house"></i> Inicio</a></li>
-                <li><a href="#salsasTipos" class="menu__link" ><i class="fa-solid fa-wine-bottle"></i> Salsas</a></li>
-                <li><a href="#quienesSomos" class="menu__link" ><i class="fa-solid fa-user"></i> Quienes Somos</a></li>
-                <li><a href="#bolsaDeTrabajo" class="menu__link" ><i class="fa-solid fa-briefcase"></i> Bolsa de Trabajo</a></li>
-                <li><a href="#ubicacion" class="menu__link" ><i class="fa-solid fa-location-pin"></i> Ubicación</a></li>
-                <li><a href="#contacto" class="menu__link" ><i class="fa-solid fa-comment"></i> Contacto</a></li>
+                <li><a href="index.html" class="active menu__link"><i class="fa-solid fa-house menu__icon"></i><span class="menu__nombre"> Inicio</span></a></li>
+                <li><a href="#salsasTipos" class="menu__link" ><i class="fa-solid fa-wine-bottle menu__icon"></i><span class="menu__nombre"> Salsas</span></a></li>
+                <li><a href="#quienesSomos" class="menu__link" ><i class="fa-solid fa-user menu__icon"></i><span class="menu__nombre"> Quiénes somos</span></a></li>
+                <li><a href="#bolsaDeTrabajo" class="menu__link" ><i class="fa-solid fa-briefcase menu__icon"></i><span class="menu__nombre"> Bolsa de Trabajo</span></a></li>
+                <li><a href="#ubicacion" class="menu__link" ><i class="fa-solid fa-location-pin menu__icon"></i><span class="menu__nombre"> Ubicación</span></a></li>
+                <li><a href="#contacto" class="menu__link" ><i class="fa-solid fa-comment menu__icon"></i><span class="menu__nombre"> Contacto</span></a></li>
             </ul>
         </nav>
     </header>
@@ -98,15 +101,15 @@
         </section>
         <section class="sobre">
             <h2 class="sobre__titulo">
-                Las salsas extraordinarias que transforman tus platos en obras maestras culinarias.
+                Las salsas extraordinarias que transforman tus platos en obras maestras culinarias
             </h2>
             <p class="sobre__descripcion">
-                Prueba el sabor incomparable y descubre por qué son el complemento perfecto para tus comidas favoritas.
+                Prueba el sabor incomparable y descubre por qué son el complemento perfecto para tus comidas favoritas
             </p>
         </section>
         <section class="salsas" id="salsasTipos">
             <div class="salsa">
-                <img src="assets/img/salsa.png" alt="Salsa Asada">
+                <img src="assets/img/salsa.png" alt="Salsa Asada" class="salsa__imagen">
                 <div class="salsa__contenido">
                     <h4 class="salsa__titulo">Salsa Asada</h4>
                     <p class="salsa__descripcion">Salsa picante para acompañar tus alimentos</p>
@@ -117,7 +120,7 @@
                 </div>
             </div>
             <div class="salsa">
-                <img src="assets/img/salsa.png" alt="Salsa Taquera">
+                <img src="assets/img/salsaTaquera.jpg" alt="Salsa Taquera" class="salsa__imagen">
                 <div class="salsa__contenido">
                     <h4 class="salsa__titulo">Salsa Taquera</h4>
                     <p class="salsa__descripcion">Salsa picante para acompañar tus alimentos</p>
@@ -128,7 +131,7 @@
                 </div>
             </div>
             <div class="salsa">
-                <img src="assets/img/salsa.png" alt="Salsa Birriera">
+                <img src="assets/img/salsaBirriera.jpg" alt="Salsa Birriera" class="salsa__imagen" >
                 <div class="salsa__contenido">
                     <h4 class="salsa__titulo">Salsa Birriera</h4>
                     <p class="salsa__descripcion">Salsa picante para acompañar tus alimentos</p>
@@ -139,7 +142,7 @@
                 </div>
             </div>
             <div class="salsa">
-                <img src="assets/img/salsa.png" alt="Salsa Mulata">
+                <img src="assets/img/salsaMulata.jpg" alt="Salsa Mulata" class="salsa__imagen">
                 <div class="salsa__contenido">
                     <h4 class="salsa__titulo">Salsa Mulata</h4>
                     <p class="salsa__descripcion">Salsa picante para acompañar tus alimentos</p>
@@ -214,15 +217,16 @@
                 <tbody class="footer__horario-datos">
                     <tr>
                         <td>Lunes - Viernes</td>
-                        <td>8 - 18</td>
+                        <td>9 - 18 hrs</td>
                     </tr>
                     <tr>
                         <td>Sábados - Domingos</td>
-                        <td>8 - 15</td>
+                        <td>9 - 13 hrs</td>
                     </tr>
                 </tbody>
             </table>
         </div>
+
         <div class="footer__contacto">
             <p class="footer__parrafo">Contacto</p>
             <ul class="footer__lista-contacto">
