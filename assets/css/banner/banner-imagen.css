@@ -15,7 +15,7 @@
 @media (min-width:902px) {
 
     .banner__imagen {
-        height: calc(100vh - 275px);
+        height: calc(100vh - 75px);
     }
 }
 
